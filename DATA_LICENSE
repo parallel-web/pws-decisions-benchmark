@@ -1,0 +1,37 @@
+PWS-Decisions Dataset Evaluation Terms v1.0
+
+Copyright (c) 2026 Parallel. All rights reserved except as granted below.
+
+Scope
+These terms cover the PWS-Decisions question files, reference answers, and
+per-question baseline predictions (the Dataset). The runner and examples
+are separately licensed under MIT; that license does not cover the Dataset.
+
+Permitted use
+After accepting these terms through the official Hugging Face access form,
+you may download and privately copy the Dataset to run benchmarks and evaluate
+decision APIs or models, including for commercial evaluation. You may submit
+question inputs to the APIs or models being evaluated solely to execute those
+evaluations. This permission does not authorize those recipients to publish,
+redistribute, or independently reuse the Dataset.
+
+No redistribution
+You may not publish, upload, mirror, sell, sublicense, or otherwise distribute
+any Dataset questions, reference answers, or per-question baseline predictions,
+including subsets or modified copies, without Parallel's prior written
+permission. Do not include them in public repositories, reports, logs, or
+hosted services. Direct other users to the official Hugging Face access form
+so they can accept these terms and obtain their own access.
+
+Reporting results
+You may publish aggregate benchmark scores, latency, cost, configuration, and
+methodology, and refer to question IDs, provided you do not reproduce Dataset
+content. Cite PWS-Decisions and the evaluated dataset version.
+
+Disclaimer
+The Dataset is provided "as is", without warranties, including accuracy,
+fitness for a particular purpose, or noninfringement. To the extent permitted
+by law, Parallel is not liable for claims or damages arising from its use.
+
+These terms grant no rights to third-party websites, trademarks, or other
+third-party material referenced by the Dataset.

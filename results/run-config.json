@@ -1,0 +1,47 @@
+{
+  "parallel": {
+    "model": "fast",
+    "requests_per_run": 300,
+    "question_contract": "unchanged; state, instructions, choices only",
+    "retrieval": "native Parallel web grounding",
+    "measured_worker_limit": 12,
+    "endpoint": "https://api.parallel.ai/v1/decisions",
+    "concurrency_scope": "per provider"
+  },
+  "perplexity": {
+    "model": "perplexity/pplx-decider-v1.2-20261016",
+    "requests_per_run": 300,
+    "question_contract": "unchanged; state, instructions, choices only",
+    "retrieval": "no supplied external context",
+    "measured_worker_limit": 12,
+    "endpoint": "https://openrouter.ai/api/alpha/decisions",
+    "concurrency_scope": "shared across four providers"
+  },
+  "mammoth": {
+    "model": "decision-models/baseten-mammoth-27b-latest",
+    "requests_per_run": 300,
+    "question_contract": "unchanged; state, instructions, choices only",
+    "retrieval": "no supplied external context",
+    "measured_worker_limit": 12,
+    "endpoint": "https://inference.baseten.co/v1/systemone",
+    "concurrency_scope": "per provider"
+  },
+  "openai": {
+    "model": "gpt-6-luna",
+    "requests_per_run": 300,
+    "question_contract": "unchanged; state, instructions, choices only",
+    "retrieval": "no supplied external context",
+    "measured_worker_limit": 12,
+    "endpoint": "https://api.openai.com/v1/decisions",
+    "concurrency_scope": "shared across four providers"
+  },
+  "typesafe": {
+    "model": "jev-1.14.0",
+    "requests_per_run": 300,
+    "question_contract": "unchanged; state, instructions, choices only",
+    "retrieval": "no supplied external context",
+    "measured_worker_limit": 12,
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency_scope": "per provider"
+  }
+}

@@ -1,0 +1,9 @@
+[project]
+name = "pws-decisions-benchmark"
+version = "0.1.0rc1"
+description = "A web-grounded decision API benchmark with deterministic scoring"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = false

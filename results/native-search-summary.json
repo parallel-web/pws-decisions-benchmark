@@ -1,0 +1,130 @@
+{
+  "evaluation_date_pacific": "2026-10-29",
+  "source": "Recorded three-run native-search comparison",
+  "results": {
+    "luna_web": {
+      "full": {
+        "n_questions": 300,
+        "correct_counts": [
+          294,
+          294,
+          288
+        ],
+        "accuracy_mean_percent": 97.33333333333333,
+        "accuracy_sd_pp": 1.1547005383792515,
+        "accuracy_t95_unbounded_percent": [
+          94.46489818005915,
+          100.2017684866075
+        ],
+        "accuracy_t95_percent": [
+          94.46489818005915,
+          100
+        ],
+        "latency_mean_s": 8.87928845743985,
+        "latency_p50_s": 7.419615337508731,
+        "latency_p95_s": 19.1716871675686,
+        "estimated_cost_per_1000_usd": 16.5220795,
+        "estimated_cost_per_1000_upper_usd": 16.5220795,
+        "total_estimated_cost_usd": 14.869871550000001,
+        "errors": 0,
+        "no_billable_search_count": 0,
+        "mean_tool_calls": 1.4733333333333334,
+        "response_models": {
+          "gpt-6-luna": 900
+        }
+      },
+      "public": {
+        "n_questions": 100,
+        "correct_counts": [
+          97,
+          97,
+          95
+        ],
+        "accuracy_mean_percent": 96.33333333333333,
+        "accuracy_sd_pp": 1.1547005383792515,
+        "accuracy_t95_unbounded_percent": [
+          93.46489818005915,
+          99.2017684866075
+        ],
+        "accuracy_t95_percent": [
+          93.46489818005915,
+          99.2017684866075
+        ],
+        "latency_mean_s": 9.302982753041045,
+        "latency_p50_s": 8.297393652028404,
+        "latency_p95_s": 19.23361861096929,
+        "estimated_cost_per_1000_usd": 17.697615483333337,
+        "estimated_cost_per_1000_upper_usd": 17.697615483333337,
+        "total_estimated_cost_usd": 5.309284645,
+        "errors": 0,
+        "no_billable_search_count": 0,
+        "mean_tool_calls": 1.5766666666666667,
+        "response_models": {
+          "gpt-6-luna": 300
+        }
+      }
+    },
+    "haiku55_web": {
+      "full": {
+        "n_questions": 300,
+        "correct_counts": [
+          290,
+          290,
+          289
+        ],
+        "accuracy_mean_percent": 96.55555555555556,
+        "accuracy_sd_pp": 0.19245008972988073,
+        "accuracy_t95_unbounded_percent": [
+          96.07748303000984,
+          97.03362808110127
+        ],
+        "accuracy_t95_percent": [
+          96.07748303000984,
+          97.03362808110127
+        ],
+        "latency_mean_s": 6.882755631194968,
+        "latency_p50_s": 6.378104293020442,
+        "latency_p95_s": 10.947647462331222,
+        "estimated_cost_per_1000_usd": 27.42938911111111,
+        "estimated_cost_per_1000_upper_usd": 28.78923122222222,
+        "total_estimated_cost_usd": 24.6864502,
+        "errors": 0,
+        "no_billable_search_count": 2,
+        "mean_tool_calls": 2.2666666666666666,
+        "response_models": {
+          "claude-haiku-5-5": 900
+        }
+      },
+      "public": {
+        "n_questions": 100,
+        "correct_counts": [
+          96,
+          96,
+          97
+        ],
+        "accuracy_mean_percent": 96.33333333333333,
+        "accuracy_sd_pp": 0.5773502691896257,
+        "accuracy_t95_unbounded_percent": [
+          94.89911575669623,
+          97.76755090997042
+        ],
+        "accuracy_t95_percent": [
+          94.89911575669623,
+          97.76755090997042
+        ],
+        "latency_mean_s": 7.100655288791749,
+        "latency_p50_s": 6.722100277431309,
+        "latency_p95_s": 10.857842258247548,
+        "estimated_cost_per_1000_usd": 28.969752333333336,
+        "estimated_cost_per_1000_upper_usd": 29.873179966666665,
+        "total_estimated_cost_usd": 8.6909257,
+        "errors": 0,
+        "no_billable_search_count": 0,
+        "mean_tool_calls": 2.3833333333333333,
+        "response_models": {
+          "claude-haiku-5-5": 300
+        }
+      }
+    }
+  }
+}

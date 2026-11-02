@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the released dataset version and evaluation configuration."
+title: "PWS-Decisions Benchmark"
+type: dataset
+authors:
+  - name: "Parallel"
+version: "0.1.0-rc1"
+keywords:
+  - decision model benchmark
+  - decision API leaderboard
+  - web grounding
+  - multiple-choice evaluation

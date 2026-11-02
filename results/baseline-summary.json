@@ -1,0 +1,225 @@
+{
+  "dataset_version": "0.1.0-rc1",
+  "data_status": "reviewed",
+  "results": [
+    {
+      "provider": "parallel",
+      "label": "Parallel Decisions API",
+      "model": "fast",
+      "public": {
+        "n": 100,
+        "correct_counts": [
+          78,
+          79,
+          78
+        ],
+        "mean_accuracy_percent": 78.33333333333333,
+        "sample_sd_pp": 0.5773502691896257,
+        "t95_interval_percent": [
+          76.89911575669623,
+          79.76755090997042
+        ]
+      },
+      "whole": {
+        "n": 300,
+        "correct_counts": [
+          229,
+          229,
+          228
+        ],
+        "mean_accuracy_percent": 76.22222222222221,
+        "sample_sd_pp": 0.19245008972987251,
+        "t95_interval_percent": [
+          75.74414969667653,
+          76.7002947477679
+        ]
+      },
+      "evaluated_dates_pacific": [
+        "2026-10-29"
+      ],
+      "utc_start": "2026-10-29T22:09:09Z",
+      "utc_end": "2026-10-29T23:59:02Z",
+      "latency_p50_s": 0.5571582975098863,
+      "latency_p95_s": 0.7054308446357024,
+      "cost_usd_per_1000_questions": 1.0,
+      "pricing_source": "https://docs.parallel.ai/getting-started/pricing",
+      "run_count": 3
+    },
+    {
+      "provider": "perplexity",
+      "label": "Perplexity Decisions",
+      "model": "perplexity/pplx-decider-v1.2-20261016",
+      "public": {
+        "n": 100,
+        "correct_counts": [
+          51,
+          51,
+          51
+        ],
+        "mean_accuracy_percent": 51.0,
+        "sample_sd_pp": 0.0,
+        "t95_interval_percent": [
+          51.0,
+          51.0
+        ]
+      },
+      "whole": {
+        "n": 300,
+        "correct_counts": [
+          152,
+          154,
+          152
+        ],
+        "mean_accuracy_percent": 50.888888888888886,
+        "sample_sd_pp": 0.38490017945975324,
+        "t95_interval_percent": [
+          49.93274383779748,
+          51.84503393998029
+        ]
+      },
+      "evaluated_dates_pacific": [
+        "2026-10-29"
+      ],
+      "utc_start": "2026-10-29T21:36:48Z",
+      "utc_end": "2026-10-29T21:38:38Z",
+      "latency_p50_s": 0.3045827191090211,
+      "latency_p95_s": 0.7875088467262684,
+      "cost_usd_per_1000_questions": 0.004159266666666666,
+      "pricing_source": "API usage.cost via OpenRouter",
+      "run_count": 3
+    },
+    {
+      "provider": "mammoth",
+      "label": "Baseten Mammoth",
+      "model": "decision-models/baseten-mammoth-27b-latest",
+      "public": {
+        "n": 100,
+        "correct_counts": [
+          37,
+          37,
+          37
+        ],
+        "mean_accuracy_percent": 37.0,
+        "sample_sd_pp": 0.0,
+        "t95_interval_percent": [
+          37.0,
+          37.0
+        ]
+      },
+      "whole": {
+        "n": 300,
+        "correct_counts": [
+          135,
+          135,
+          135
+        ],
+        "mean_accuracy_percent": 45.0,
+        "sample_sd_pp": 0.0,
+        "t95_interval_percent": [
+          45.0,
+          45.0
+        ]
+      },
+      "evaluated_dates_pacific": [
+        "2026-10-29"
+      ],
+      "utc_start": "2026-10-30T00:03:07Z",
+      "utc_end": "2026-10-30T00:03:19Z",
+      "latency_p50_s": 0.09067995147779584,
+      "latency_p95_s": 0.43656633138889445,
+      "cost_usd_per_1000_questions": 0.021416333333333332,
+      "pricing_source": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-pricing/",
+      "run_count": 3
+    },
+    {
+      "provider": "openai",
+      "label": "OpenAI Decisions API",
+      "model": "gpt-6-luna",
+      "public": {
+        "n": 100,
+        "correct_counts": [
+          42,
+          42,
+          42
+        ],
+        "mean_accuracy_percent": 42.0,
+        "sample_sd_pp": 0.0,
+        "t95_interval_percent": [
+          42.0,
+          42.0
+        ]
+      },
+      "whole": {
+        "n": 300,
+        "correct_counts": [
+          125,
+          125,
+          125
+        ],
+        "mean_accuracy_percent": 41.666666666666664,
+        "sample_sd_pp": 0.0,
+        "t95_interval_percent": [
+          41.666666666666664,
+          41.666666666666664
+        ]
+      },
+      "evaluated_dates_pacific": [
+        "2026-10-29"
+      ],
+      "utc_start": "2026-10-29T21:36:48Z",
+      "utc_end": "2026-10-29T21:38:38Z",
+      "latency_p50_s": 0.16524566092994064,
+      "latency_p95_s": 0.3892477819928899,
+      "cost_usd_per_1000_questions": 0.022770000000000002,
+      "pricing_source": "https://developers.openai.com/api/docs/guides/decisions#pricing-and-availability",
+      "run_count": 3
+    },
+    {
+      "provider": "typesafe",
+      "label": "TypeSafe Jev 1.14",
+      "model": "jev-1.14.0",
+      "public": {
+        "n": 100,
+        "correct_counts": [
+          33,
+          33,
+          34
+        ],
+        "mean_accuracy_percent": 33.333333333333336,
+        "sample_sd_pp": 0.5773502691896257,
+        "t95_interval_percent": [
+          31.899115756696244,
+          34.767550909970424
+        ]
+      },
+      "whole": {
+        "n": 300,
+        "correct_counts": [
+          100,
+          100,
+          101
+        ],
+        "mean_accuracy_percent": 33.44444444444444,
+        "sample_sd_pp": 0.19245008972987251,
+        "t95_interval_percent": [
+          32.96637191889875,
+          33.922516969990134
+        ]
+      },
+      "evaluated_dates_pacific": [
+        "2026-10-29"
+      ],
+      "utc_start": "2026-10-29T22:09:09Z",
+      "utc_end": "2026-10-29T22:16:54Z",
+      "latency_p50_s": 0.055317026446573436,
+      "latency_p95_s": 0.1319231164641678,
+      "cost_usd_per_1000_questions": 0.018509820000000003,
+      "pricing_source": "https://docs.typesafe.ai/models",
+      "run_count": 3
+    }
+  ],
+  "random_accuracy_percent": {
+    "public": 44.66666666666667,
+    "whole": 42.42222222222222
+  }
+}

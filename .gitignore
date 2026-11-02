@@ -1,0 +1,14 @@
+.env
+.env.*
+.venv/
+runs/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Downloaded gated benchmark artifacts
+data/
+results/public-per-question.csv
+.cache/huggingface/
